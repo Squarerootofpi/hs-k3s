@@ -20,3 +20,10 @@ tasks:
     dir: provision/terraform/cloudflare
     cmds:
       - "terraform apply"
+
+
+  destroy:cloudflare:
+    desc: Destroy all the k8s nodes for running k3s
+    dir: provision/terraform/cloudflare
+    cmds:
+      - "terraform destroy"

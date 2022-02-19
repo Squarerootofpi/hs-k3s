@@ -57,7 +57,7 @@ For provisioning the following tools will be used:
 | [ansible](https://www.ansible.com)                 | Preparing Ubuntu for Kubernetes and installing k3s                                                                                      |
 | [direnv](https://github.com/direnv/direnv)         | Exports env vars based on present working directory                                                                                     |
 | [flux](https://toolkit.fluxcd.io/)                 | Operator that manages your k8s cluster based on your Git repository                                                                     |
-| [age](https://github.com/FiloSottile/age)          | A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability. |
+| [age](https://github.com/FiloSottile/age)          | **POWERSHELL INSTALL** A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability. | 
 | [go-task](https://github.com/go-task/task)         | A task runner / simpler Make alternative written in Go                                                                                  |
 | [ipcalc](http://jodies.de/ipcalc)                  | Used to verify settings in the configure script                                                                                         |
 | [jq](https://stedolan.github.io/jq/)               | Used to verify settings in the configure script                                                                                         |
@@ -327,3 +327,6 @@ Many people have shared their awesome repositories over at [awesome-home-kuberne
 ## 🤝 Thanks
 
 Big shout out to all the authors and contributors to the projects that we are using in this repository.
+
+
+copy the task file again
